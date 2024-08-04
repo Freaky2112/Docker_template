@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+  portainer:
+    image: portainer/portainer-ce:latest
+    container_name: portainer
+    restart: unless-stopped
+    security_opt:
+      - no-new-privileges:true
+    volumes:
+      - ./localtime:/etc/localtime:ro
+      - ./docker.sock:/var/run/docker.sock:ro
+    ports:
+- 9000:9000

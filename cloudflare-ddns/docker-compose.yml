@@ -1,0 +1,12 @@
+services:
+  cloudflare-ddns:
+    image: oznu/cloudflare-ddns:latest
+    container_name: cloudflare-ddns
+    restart: always
+    environment:
+      - EMAIL=freaky2112@hotmail.com
+      - API_KEY=${API_KEY}
+      - ZONE=networkeclipse.com
+      # - SUBDOMAIN=subdomain
+      - PROXIED=true
+      - RRTYPE=A
