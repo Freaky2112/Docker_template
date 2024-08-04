@@ -1,7 +1,6 @@
 # Docker_template
 
-
-> Template for Docker <
+Template for Docker 
 
 
 { tested and working }
