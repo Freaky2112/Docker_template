@@ -1,0 +1,5 @@
+      - EMAIL=youremailadress
+      - API_KEY=${API_KEY}
+      - ZONE=name of de domain or subdomain
+      - PROXIED=true
+      - RRTYPE=A
