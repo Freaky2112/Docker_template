@@ -2,6 +2,6 @@ Please dont forgot to change those lines in the docker-compose.yml
 
       - EMAIL=youremailadress
       - API_KEY=${API_KEY}
-      - ZONE=name of de domain or subdomain
+      - ZONE=name of de domain
       - PROXIED=true
       - RRTYPE=A
