@@ -1,0 +1,17 @@
+services:
+  nutweb:
+    image: ghcr.io/superioone/nut_webgui:latest
+    restart: always
+    ports:
+      - 1234:1234
+    environment:
+      POLL_FREQ: "60"
+      POLL_INTERVAL: "5"
+      UPSD_ADDR: 192.168.23.254
+      UPSD_PORT: "3493"
+      UPSD_USER: ${USER}
+      UPSD_PASS: ${PASSWORD}
+      LISTEN: 0.0.0.0
+      PORT: "1234"
+      LOG_LEVEL: debug
+networks: {}
