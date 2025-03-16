@@ -1,4 +1,3 @@
-version: '3.8'
 services:
   app:
     image: 'jc21/nginx-proxy-manager:latest'
@@ -10,8 +9,8 @@ services:
       - '443:443' # Public HTTPS Port
       - '81:81' # Admin Web Port
     volumes:
-      - /home/freaky/docker/npm/data:/data
-      - /home/freaky/docker/npm/letsencrypt:/etc/letsencrypt
+      - ./data:/data
+      - ./letsencrypt:/etc/letsencrypt
     environment:
       # Mysql/Maria connection parameters:
       DB_MYSQL_HOST: "db"
