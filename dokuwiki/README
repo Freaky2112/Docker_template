@@ -3,3 +3,5 @@ Please edit those lines in docker-compose.yml according to your config
       - PUID=1000
       - PGID=1000
       - TZ=America/New_York
+    volumes:
+      - ./config:/config
