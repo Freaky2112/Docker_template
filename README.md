@@ -1,3 +1,5 @@
+![Contributions](https://img.shields.io/badge/contributions-welcome-orange.svg) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white) ![Stars](https://img.shields.io/github/stars/Freaky2112/Docker_template)
+
 # 🐳 Docker Compose Homelab Stack
 
 This repository contains a collection of self-hosted services orchestrated entirely with **Docker Compose**. It is designed for a homelab environment, providing monitoring, automation, media tools, dashboards, and infrastructure utilities.
@@ -9,16 +11,19 @@ This repository contains a collection of self-hosted services orchestrated entir
 All services are defined and managed through a single (or multiple) `docker-compose.yml` file(s).
 
 ### ▶️ Start Everything
+
 ```bash
 docker compose up -d
 ```
 
 ### ⛔ Stop Everything
+
 ```bash
 docker compose down
 ```
 
 ### 🔄 Update Containers
+
 ```bash
 docker compose pull
 docker compose up -d
@@ -29,6 +34,7 @@ docker compose up -d
 ## 🧱 Services Included
 
 ### 🎬 youtube-dl
+
 A web interface for downloading videos from YouTube and other platforms.
 
 * Download audio/video
@@ -36,6 +42,7 @@ A web interface for downloading videos from YouTube and other platforms.
 * Easy browser-based UI
 
 ### 🖥️ Webtop
+
 A full Linux desktop environment accessible from your browser.
 
 * Remote desktop via web
@@ -45,6 +52,7 @@ A full Linux desktop environment accessible from your browser.
 ---
 
 ### ⏱️ Uptime Kuma
+
 Self-hosted monitoring tool.
 
 * Monitor uptime of services
@@ -54,6 +62,7 @@ Self-hosted monitoring tool.
 ---
 
 ### ⚙️ Semaphore
+
 Ansible-based automation platform.
 
 * Run playbooks from UI
@@ -61,7 +70,9 @@ Ansible-based automation platform.
 * Role-based access
 
 ---
+
 ### 📄 Paperless
+
 Document management system.
 
 * OCR support
@@ -71,6 +82,7 @@ Document management system.
 ---
 
 ### 🔌 NUT (nutweb / nutgui)
+
 Network UPS Tools web interfaces.
 
 * Monitor UPS status
@@ -80,15 +92,16 @@ Network UPS Tools web interfaces.
 ---
 
 ### 🌐 NGINX
-Web server and reverse proxy.
+
+Web server
 
 * Handle incoming traffic
 * SSL termination
-* Routing to services
 
 ---
 
 ### 🚪 Nginx Proxy Manager (NPM)
+
 User-friendly interface for managing NGINX.
 
 * Easy reverse proxy setup
@@ -98,6 +111,7 @@ User-friendly interface for managing NGINX.
 ---
 
 ### 🏠 Homer Dashboard
+
 Simple and clean homepage dashboard.
 
 * Quick access to services
@@ -107,6 +121,7 @@ Simple and clean homepage dashboard.
 ---
 
 ### 📚 DokuWiki
+
 Lightweight wiki system.
 
 * File-based (no database)
@@ -116,6 +131,7 @@ Lightweight wiki system.
 ---
 
 ### 🐳 Dockage
+
 Docker environment manager.
 
 * View containers
@@ -125,6 +141,7 @@ Docker environment manager.
 ---
 
 ### 🧰 Dockhand
+
 Container management utility.
 
 * Simplifies Docker operations
@@ -133,6 +150,7 @@ Container management utility.
 ---
 
 ### ☁️ Cloudflare DDNS
+
 Auto-update your public IP in Cloudflare.
 Dynamic DNS updater for Cloudflare.
 
@@ -142,6 +160,7 @@ Dynamic DNS updater for Cloudflare.
 ---
 
 ### 🥜 Peanuts
+
 Lightweight self-hosted tool (varies by implementation).
 
 * Typically used for small utilities or dashboards
@@ -237,4 +256,12 @@ This project is provided as-is for personal use and homelab experimentation.
 
 ## 🙌 Contributions
 
+Contributions, improvements, and docker additions are welcome!
+
 Feel free to expand this stack, optimize compose files, or add new services.
+
+---
+
+## 📊 Project Status
+
+![GitHub issues](https://img.shields.io/github/issues/Freaky2112/Scripts?style=flat-square&color=red) ![GitHub last commit](https://img.shields.io/github/last-commit/Freaky2112/Scripts/main?style=flat-square&color=green)
