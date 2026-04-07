@@ -232,7 +232,7 @@ docker-compose up -d
 
 - Use a `.env` file for secrets and configs
 - Avoid exposing unnecessary ports
-- Put services behind **Nginx Proxy Manager**
+- Put services behind ***Nginx Proxy Manager***
 - Enable HTTPS (Let's Encrypt)
 - Use strong passwords
 - Regularly update containers
