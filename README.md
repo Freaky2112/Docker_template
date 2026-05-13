@@ -167,6 +167,79 @@ Lightweight self-hosted tool (varies by implementation).
 
 ---
 
+### 📈 Grafana
+
+Central dashboard and visualization platform.
+
+Features:
+
+Build dashboards for metrics and logs
+Alerting and notifications
+Data source integrations
+User management and authentication
+
+Common port:
+
+3000:3000
+
+### ⚙️ Alloy
+
+Modern telemetry collector from Grafana Labs.
+
+Features:
+
+Metrics collection
+Logs collection
+Traces support
+Prometheus-compatible scraping
+OpenTelemetry pipelines
+
+Used as the main agent to collect and forward observability data.
+
+### 🪵 Loki
+
+Log aggregation system.
+
+Features:
+
+Store logs efficiently
+Label-based log indexing
+Fast querying through Grafana
+Lightweight alternative to ELK stack
+
+Common port:
+
+3100:3100
+
+### 📊 Prometheus
+
+Metrics collection and storage.
+
+Features:
+
+Time-series database
+Scraping exporters/services
+Alert rules
+Service discovery
+
+Common port:
+
+9090:9090
+
+### 📝 Promtail
+
+Log shipping agent.
+
+Features:
+
+Collect local container/system logs
+Attach labels
+Push logs to Loki
+
+Typically mounted to Docker logs and system log directories.
+
+---
+
 ## 🗂️ Suggested Project Structure
 
 ```bash
