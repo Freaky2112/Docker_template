@@ -7,6 +7,6 @@ services:
       - 8343:443
       - 2055:2055/udp
     environment:
-      - TZ=America/Toront
+      - TZ=America/Toronto
     volumes:
       - ./config:/config
